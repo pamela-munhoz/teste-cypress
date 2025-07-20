@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-07-20T22:38:12.586Z",
+    "end": "2025-07-20T22:38:13.208Z",
+    "duration": 622,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8d340e6d-0026-437c-b4ec-6cfeec7fb8f7",
+      "title": "",
+      "fullFile": "cypress\\e2e\\api-mensagens.cy.js",
+      "file": "cypress\\e2e\\api-mensagens.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "36718672-33b1-49d6-bfbb-c96ab108e90d",
+          "title": "Api Adopet",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Mensagens da API",
+              "fullTitle": "Api Adopet Mensagens da API",
+              "timedOut": null,
+              "duration": 588,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.request({\n  method: 'GET',\n  url: 'https://adopet-api-i8qu.onrender.com/mensagem/0fcdc41b-2a6d-4760-ab96-0aa9739a1495',\n  headers: Cypress.env()\n}).then(res => {\n  expect(res.status).to.be.equal(200);\n  expect(res.body).is.not.empty;\n  expect(res.body).to.have.property('msg');\n});",
+              "err": {},
+              "uuid": "54ed0826-5abc-48ba-9aee-d70e50a724f6",
+              "parentUUID": "36718672-33b1-49d6-bfbb-c96ab108e90d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "54ed0826-5abc-48ba-9aee-d70e50a724f6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 588,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "usuarios": [
+    {
+      "name": "Ash Ketchum",
+      "email": "ash.ketchum@pokemon.com",
+      "password": "Pikachu123"
+    },
+    {
+      "name": "Misty Waterflower",
+      "email": "misty@pokemon.com",
+      "password": "Togepi456"
+    },
+    {
+      "name": "Brock Harrison",
+      "email": "brock@pokemon.com",
+      "password": "Onix789"
+    },
+    {
+      "name": "May Maple",
+      "email": "may@pokemon.com",
+      "password": "Beautifly321"
+    },
+    {
+      "name": "Dawn Berlitz",
+      "email": "dawn@pokemon.com",
+      "password": "Piplup654"
+    },
+    {
+      "name": "Serena Yvonne",
+      "email": "serena@pokemon.com",
+      "password": "Fennekin987"
+    }
+  ]
+}
