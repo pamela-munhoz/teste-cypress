@@ -36,8 +36,8 @@ Cenário: Login no sistema com sucesso
 
 Passos:
 
-O usuário acessa a páina de login
-O usuário insere seu email "pamelafmunhoz@gmail.com" e a senha "Teste123" nos campos correspondentes.
+O usuário acessa a página de login
+O usuário insere seu email e a senha nos campos correspondentes.
 O usuário clica no botão "Entrar".
 
 O sistema autentica as credenciais forcedidas.
